@@ -5,29 +5,36 @@ html {
   font-family: Georgia, serif;
   font-size: 18px;
 }
+section{
+    margin-top: 11vh;
+}
 body {
   margin-bottom: 0rem;
     background-color: lightgray
 }
 .header{
+    top:0;
     display: flex;
     justify-content: space-between;
     background: #1c2c2c;
     align-items: center;
+    position: fixed;
+    z-index: 999;
+    width: 100vw
 }
 h1 {
     display: inline-block;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   color: #fff;
   margin: 0vh;
-  padding: 0.75em 1.55em;
+  padding: 0.25em 1.55em;
   background: #1c2c2c;
   line-height: 1.1em;
 }
 h2{
     display: inline-block;
      background: #1c2c2c;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     color:gray;
     padding: 0em 1.55em;
     flex:-1
