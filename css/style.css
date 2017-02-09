@@ -6,7 +6,12 @@ html {
   font-size: 18px;
 }
 section{
-    margin-top: 11vh;
+    margin-top: 7vh;
+}
+@media screen and (max-width: 480px) {
+    section{
+    margin-top: 15vh;
+}
 }
 body {
   margin-bottom: 0rem;
