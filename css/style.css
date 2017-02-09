@@ -12,6 +12,10 @@ section{
     section{
     margin-top: 15vh;
 }
+}@media screen and (min-width: 1480px) {
+    section{
+    margin-top: 3vh;
+}
 }
 body {
   margin-bottom: 0rem;
